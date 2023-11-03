@@ -1,0 +1,72 @@
+header {
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+    height: 18vh;
+    text-align: center;
+    color: floralwhite;
+}
+
+header h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    height: 15vh;
+    background-color: silver;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background-color: whitesmoke;
+}
+
+section iframe {
+    border: none;
+    height: 100vh;
+    width: 75vw;
+}
+
+section {
+    height: 100vh;
+    text-align: center;
+}
+
+aside {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+aside img {
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    height: 15vh;
+    background-color: silver;
+    text-align: center;
+    padding-top: 5px;
+}
